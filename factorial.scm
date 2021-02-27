@@ -5,4 +5,5 @@
 
 (define sappend string-append)
 (define n2s number->string)
+
 (display (sappend "Factorial: " (n2s (factorial 20))))
